@@ -1,22 +1,86 @@
 aid: foaster
 name: Foaster
-description: Foaster is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Foaster is an AI transformation consultancy that bills itself as "the AI-native
+  McKinsey." Founded in 2026 by Raphael Dabadie and Alexandre Combes and backed by Y Combinator,
+  it deploys AI agents that interview a company's employees at scale, map how work actually gets
+  done, identify bottlenecks and AI opportunities, and draft a transformation roadmap in about two
+  weeks, with expert consultants reviewing the outputs and feeding their corrections back into the
+  system. Its offerings span an AI Transformation Assessment, Continuous AI Transformation with
+  monthly adoption tracking, and Enterprise Deployment backed by forward-deployed engineers. Foaster
+  is a managed professional-services company and does not currently publish a public API, developer
+  portal, SDKs, or other developer-facing technical surface.
 url: https://raw.githubusercontent.com/api-evangelist/foaster/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://foaster.ai/newlogo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: 'Enriched 2026-07-19: identity/completeness + domain-security probe. Foaster is a
+  services/consulting company with NO public API, OpenAPI, MCP, packages, well-known files, or
+  llms.txt (all probed 404). No API artifacts to generate; only real published web properties wired.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Transformation
+- Consulting
+- Professional Services
+- Enterprise
+- AI Agents
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/foaster-domain-security.yml
+- type: Website
+  name: Foaster Website
+  url: https://foaster.ai
+- type: Blog
+  name: Blog
+  url: https://foaster.ai/blog
+- type: Research
+  name: Research
+  url: https://foaster.ai/research
+- type: About
+  name: About
+  url: https://foaster.ai/about
+- type: HowItWorks
+  name: How It Works
+  url: https://foaster.ai/how-it-works
+- type: CaseStudy
+  name: Case Study
+  url: https://foaster.ai/case-study
+- type: Contact
+  name: Contact
+  url: https://foaster.ai/contact
+- type: LinkedIn
+  name: LinkedIn
+  url: https://www.linkedin.com/company/foaster-ai
+- type: Twitter
+  name: X (Twitter)
+  url: https://x.com/Foaster_ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

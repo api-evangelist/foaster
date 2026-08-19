@@ -31,7 +31,7 @@ x-tier-reason: portfolio-lead
 x-enrichment-note: 'Enriched 2026-07-19: identity/completeness + domain-security probe. Foaster is a
   services/consulting company with NO public API, OpenAPI, MCP, packages, well-known files, or
   llms.txt (all probed 404). No API artifacts to generate; only real published web properties wired.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
